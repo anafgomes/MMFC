@@ -1,0 +1,50 @@
+.divpai{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+.divfilho {
+  width: 80%;
+}
+
+.container {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  height: 50vh; 
+}
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 400px);
+  grid-template-rows: repeat(2, auto); 
+  gap: 5px; 
+}
+
+.contcomochegar{
+  align-items: center;
+  justify-content: center;
+  height: auto;
+  width: 100%;
+  padding-bottom: 50px;
+}
+
+.comochegar h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+  }
+
+  h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+  }
+  
+.comochegar span iframe {
+
+    width: 100%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 10px;
+  }

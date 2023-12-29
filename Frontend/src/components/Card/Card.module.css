@@ -1,0 +1,58 @@
+.newsgrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .newscard {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .newscard p {
+    text-align: justify;
+  }
+  
+  .newscard img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .newscard:hover img {
+    transform: scale(1.1);
+  }
+  
+  .newscard h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .newscard p {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .btnleiamais {
+    display: inline-block;
+    background-color: #FFD147;
+    color: #000000;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btnleiamais:hover {
+    background-color: #000000;
+    color: #FFFFFF;
+  }

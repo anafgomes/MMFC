@@ -1,0 +1,16 @@
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.1em 20em;
+    background-color: rgb(255, 209, 71);
+}
+
+.logo{
+    height: 79px;
+    width: 225px;
+}
+
+.CabecalhoLink:hover{
+    color: black;
+}
